@@ -37,6 +37,24 @@ Este repositório contém um conjunto de **15 skills** (prompts estruturados) qu
 
 ## ⚡ Como Usar
 
+### Instalação assistida (recomendada)
+
+Abra o Claude Code e cole o prompt abaixo; o Claude conduz a instalação inteira, pergunta quais skills você quer e valida o resultado no final.
+
+```text
+Você vai me ajudar a instalar o pack "Skills para Empresários" da Expert Integrado no meu Claude Code. Siga exatamente estes passos:
+
+1. Clone o repositório oficial em uma pasta temporária: git clone https://github.com/Expert-Integrado/skills-empresarios.git
+   Cada subpasta que contém um arquivo SKILL.md é uma skill independente.
+2. Liste as skills disponíveis (nome e descrição de cada SKILL.md) e me pergunte, usando AskUserQuestion, quais eu quero instalar (todas ou uma seleção).
+3. Copie cada pasta escolhida para ~/.claude/skills/ (crie a pasta se não existir), preservando o nome da pasta e o arquivo SKILL.md. No Windows, o caminho é %USERPROFILE%\.claude\skills\
+4. Valide a instalação de verdade: liste o conteúdo de ~/.claude/skills/ e confirme que cada skill escolhida está lá com o seu SKILL.md. Não declare sucesso sem essa verificação.
+5. Me avise que skills novas carregam no início da sessão: se alguma não responder, basta abrir uma nova sessão do Claude Code e testar com um pedido natural, por exemplo "preciso escrever um e-mail de cobrança para um cliente".
+6. Termine com um resumo: quais skills foram instaladas, em que pasta ficaram e um exemplo de pedido para testar cada uma.
+
+Regras: não modifique o conteúdo dos arquivos SKILL.md durante a instalação; nunca ecoe tokens, chaves ou credenciais no chat (este pack não exige nenhum segredo); se algum comando falhar, mostre o erro e proponha a correção antes de seguir.
+```
+
 ### Instalação no Claude Code
 
 1. Clone este repositório ou baixe as skills
@@ -148,7 +166,7 @@ Este projeto está licenciado sob a licença MIT — sinta-se livre para usar, m
 ## 🤝 Suporte
 
 Dúvidas ou sugestões?
-- 📧 Abra uma [issue](https://github.com/expertintegrado/skills-empresarios/issues)
+- 📧 Abra uma [issue](https://github.com/Expert-Integrado/skills-empresarios/issues)
 - 💬 Sugira melhorias na discussão
 
 ---
