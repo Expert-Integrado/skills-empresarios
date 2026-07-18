@@ -1,5 +1,7 @@
 # 📊 Skills para Empresários
 
+Open source, criado por **Eric Luciano** na **Mentoria Automações Inteligentes** (Expert Integrado).
+
 **[→ Como funciona o pack Skills para Empresários](https://expert-integrado.github.io/skills-empresarios/)** — a página do projeto, com o sistema explicado visualmente.
 
 Um pack de skills prontas para **Claude Code** que automatizam as tarefas mais comuns do dia a dia de um empresário — de e-mails e propostas a reuniões e feedback de equipe.
